@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+    <meta charset="utf-8">
+    <title>Who? | Name</title>
+    <link rel='icon' href='' type='image/x-icon'/>
+    <link rel="stylesheet" href="../../quick-reads/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1">
+  </head>
+  <body>
+    <div id="container">
+    <div id="header">
+      <a href="../../quick-reads/index.html" class="logo">Name</a>
+      <div id="header-right">
+     <a title="Apps" class="dropbtn" onclick="appsFunction()">&#9783;</a>
+   </div>
+    </div>
+    <div class="dropdown-content" id="apps-dropdown">
+      <a href=""><i class="fas fa-home"></i><br>Gamble Projects</a>
+      <a href=""><i class="fas fa-book"></i><br>Name</a>
+    </div>
+
+      <div class="sidenav">
+        <a class="openbtn" onclick="openNav()">☰</a>
+        <a title="Search" onclick="openSearch()"><i class="fas fa-search"></i></a>
+        <a title="Articles" href=""><i class="far fa-newspaper"></i></a>
+        <a title="Books" href=""><i class="fas fa-book"></i></a>
+        <a title="Originals" href=""><i class="fas fa-star"></i></a>
+      </div>
+
+      <div id="mySidebar" class="sidebar">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+<a href="../../quick-reads/index.html" class="logo"> Name</a>
+<a onclick="openSearch()"><i class="fas fa-search"></i> Search</a>
+<a href=""><i class="far fa-newspaper"></i> Articles</a>
+<a href=""><i class="fas fa-book"></i> Books</a>
+<a href=""><i class="fas fa-star"></i> Originals</a>
+</div>
+
+<div id="main-content">
+  <div id="content">
+    <div id="cover-header">
+    <img src="../../quick-reads/media/placeholder.jpg">
+    <h1 class="title">Who?</h1>
+    <h2 class="author">A Name Origional Series</h2>
+    <button onclick="window.location.href='../../quick-reads/articles/who-was-gandhi.html'"><i class="fas fa-book-open"></i> Start Reading</button>
+    </div>
+    <div id="cover-info">
+    <p class="description">"Who?" is a Name original series that explores the lives of some of the greatest men to ever live. The series begins with an in-depth look into the life of Mohandas Gandhi and explains his profound impact on India's independence from Great Britain. As the series progresses you will learn about the people who shaped our world's worst mistakes and greatest accomplishments.
+    </p>
+
+    <div id="section">
+    <div id="section-content">
+    <a href="../../quick-reads/articles/who-was-gandhi.html">
+      <img title="Who was Gandhi?" alt="Who was Gandhi?" src="../../quick-reads/media/placeholder.jpg">
+      <p class="title">Who was Gandhi?</p>
+    </a>
+
+    <a href="../../quick-reads/articles/who-was-picasso.html">
+      <img title="Who was Picasso?" alt="Who was Picasso?" src="../../quick-reads/media/placeholder.jpg">
+      <p class="title">Who was Picasso?</p>
+    </a>
+    </div>
+    </div>
+    <br>
+
+    </div>
+    </div>
+
+    <div id="footer">
+    <a class="logo" href="../../quick-reads/index.html">Name <sup>by Gamble Projects</sup></a>
+    </div>
+
+    </div>
+
+
+
+
+
+
+    <div id="mySearch" class="search-overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Exit">×</span>
+    <div class="search-overlay-content">
+    <input id="search-overlay-input" type="text" placeholder="Search..." onkeyup="filterFunction()">
+    <br>
+    <br>
+    <div class="filter-list">
+    <a href="">Gamble View</a>
+    <a href="">Hub</a>
+    <a href="">News</a>
+    <a href="">Name</a>
+    <a href="">Token</a>
+    </div>
+    </div>
+    </div>
